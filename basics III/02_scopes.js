@@ -1,0 +1,51 @@
+// var c = 400;
+if(true){
+    let a =10;
+    const b = 20
+    // var c = 30    //bahar ka value bhi change kr dega var so we dont use var
+}
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+function one(){
+    const username = "nitish"
+
+    function two(){
+        const website = "youtube"
+        console.log(username);
+    }
+    // console.log(website);
+
+    two()
+}
+
+one()
+
+
+if(true){
+    const username = "pihu"
+    if(username == "pihu"){
+        const website = " youtube"
+        console.log(username + website);
+    }
+    // console.log(website);
+}
+
+// console.log(username);
+
+
+//********************************************************************************************** */
+
+function addone(num){
+    return num + 1
+}
+
+addone(5)
+
+const addTwo = function(num){
+    return num + 2
+}
+
+addTwo(5)

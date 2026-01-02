@@ -1,0 +1,61 @@
+Javascript Execution Context
+
+{} --> Global Execution Context
+
+1. Global Execution Context
+2. Function Execution Context
+
+[{}]-> Memory Creation Phase  //memory allocation hota hai isme bss
+    -> Execution Phase 
+
+
+let val1 = 10
+let val2 = 5
+
+function addNum(num1, num2){     <-----------      
+    let total = num1 + num2                 |
+    return total       
+}                                           | 
+let result1 = addNum(val1, val2)            |
+let result2 = addNum(10 , 2)                |
+                                            |
+        
+Code Execution -->                          |
+                                            | 
+1.Global Execution / Environment            |
+        |                                   |
+       this
+2.Memory Phase                              | 
+  val1 - undefined                          |
+  val2 - undefined                          |
+  addNum - func defintion  ------------------
+  result1 - undefined
+  result2 - undefined
+
+3. Execution Phase
+  val1 = 10
+  val2 = 5
+  addNum -> [new varibale environemnt + execution thread]
+  result1 = 15      ____________________|
+                    |                   |                      
+              Memory Phase          Execution Context
+              val1 - undefined       num1 - 10
+              val1 - undefined       num2 - 5
+              val1 - undefined       total - 15
+
+
+//result wpis se global me
+
+
+short -
+JS pehle pura code padhta hai
+
+Sab variables ko memory me rakhta hai (undefined ke sath)
+
+Fir line by line execute karta hai
+
+Jab function milta hai → uske liye alag world (execution box) banta hai
+
+Function ke andar bhi memory phase + execution phase hota hai
+
+Kaam khatam → context delete → result wapas global me

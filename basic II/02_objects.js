@@ -75,9 +75,10 @@ console.log(instructor);
 
 
 //JSON Format
-{
-    "name": "nitish",
-    "coursename": "js in hindi",
-    "price": "free"
-}
+// {
+//     "name": "nitish",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
 
