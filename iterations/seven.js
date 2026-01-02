@@ -30,11 +30,11 @@ const shoppingCart = [
     },
     {
         itemName : "web dev",
-        price : 5999
+        price : 5999,
     },
     {
         itemName : "app course",
-        price : 3999
+        price : 3999,
     },
 ]
 
