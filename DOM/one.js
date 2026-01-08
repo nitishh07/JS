@@ -1,3 +1,4 @@
+//In relation to One.html file
 // document.getElementById
 // document.getElementById("").innerHTML = ""
 
@@ -61,21 +62,21 @@ tempClassList
 
 Array.from(tempClassList) //convetred into arr
 
-const myConvertedArray = Array.from(tempClassList)
+const myConvertedArray = Array.from(tempClassList);
 
 //all methods are available
 myConvertedArray.forEach(function(li){
     li.style.color = 'red';
 });
 
-document.querySelector('.mw-headline')
-myH2[0].innerText
+document.querySelector('.mw-headline');
+myH2[0].innerText;
 
 myH2.forEach(function (h){
     h.style.color = 'red'
     h.style.backgroundColor ='green'
     h.style.padding = '10px'
-})
+});
 
 
 
