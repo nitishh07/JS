@@ -62,7 +62,7 @@ tempClassList
 
 Array.from(tempClassList) //convetred into arr
 
-const myConvertedArray = Array.from(tempClassList)
+const myConvertedArray = Array.from(tempClassList);
 
 //all methods are available
 myConvertedArray.forEach(function(li){
