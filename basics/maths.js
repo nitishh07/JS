@@ -1,15 +1,15 @@
 const score = 400
-console.log(typeof(score))
-console.log(score)
-const balance = new Number(100)
-console.log(balance)
-console.log(balance.toString().length)
-console.log(balance.toFixed(1))  //point ke baad kitna precision tk
-console.log(typeof(balance))
+console.log(typeof(score));
+console.log(score);
+const balance = new Number(100);
+console.log(balance);
+console.log(balance.toString().length);
+console.log(balance.toFixed(1));  //point ke baad kitna precision tk
+console.log(typeof(balance));
 
 const otherNumber = 23.8667
 
-console.log(otherNumber.toPrecision(3))
+console.log(otherNumber.toPrecision(3));
 
 const hundreds = 100000000
 console.log(hundreds.toLocaleString('en-IN'))
