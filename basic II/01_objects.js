@@ -17,6 +17,21 @@ const JsUser = {
     [mySum] : "myKey1"
 }
 
+
+// ✅ Dot notation
+// console.log(JsUser.email)
+
+
+// ⚠️ Jab space nahi ho key me
+
+// ✅ Bracket notation
+// console.log(JsUser["email"])
+// console.log(JsUser["gf name"])
+
+
+// ✔️ Space wali keys ke liye sirf bracket
+
+
 //two types to print objects
 console.log(JsUser.email)
 console.log(JsUser["email"])
@@ -40,4 +55,6 @@ JsUser.greetingTwo = function(){
 
 console.log(JsUser.greeting())
 console.log(JsUser.greetingTwo())
+
+
 

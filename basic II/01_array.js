@@ -32,3 +32,9 @@ console.log("B " , myArr)
 const myn2 = myArr.splice(1, 3);  //splice -> original array manipulate ho jaega cut remove
 console.log("C " , myArr);
 console.log(myn2);
+
+
+//| Method                 | Second parameter               |
+//| ---------------------- | ------------------------------ |
+//| `slice(start, end)`    | ❌ end index (exclude hota hai) |
+//| `splice(start, count)` | ✅ number of elements           |

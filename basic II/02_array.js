@@ -22,6 +22,9 @@ console.log(real_arr)
 console.log(Array.isArray("Nitish"))
 console.log(Array.from("Nitish"))  //convert into arr
 console.log(Array.from({name: 'Pihu'})) //intersting -> btna pdega keys se arr ya value se arr
+// Array.from(Object.keys({name:'Pihu'}))   // ["name"]
+// Array.from(Object.values({name:'Pihu'})) // ["Pihu"]
+
 
 let score1 = 100
 let score2 = 100
