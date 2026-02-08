@@ -1,4 +1,4 @@
-const form = document.querySelector('form')
+const form = document.querySelector('form');
 //this use case will get empty value
 // const height = parseInt(document.querySelector('#height').value) //jb click krne pe value chhaiye  aise khali value milega
 
@@ -20,7 +20,7 @@ form.addEventListener('submit' , function(e){
     }
 
     else{
-        const bmi = (weight / ((height * height)/10000)).toFixed(2)
+        const bmi = (weight / ((height * height)/10000)).toFixed(2);
 
         //show result
 

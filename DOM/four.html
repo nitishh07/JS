@@ -20,7 +20,7 @@
     addLanguage("python")
     addLanguage("typescript")
 
-    //optimised way
+    //optimised way 
     function addOptiLanguage(langName){
         const li = document.createElement('li');
         li.appendChild(document.createTextNode(langName))
@@ -29,12 +29,12 @@
     addOptiLanguage("Ruby")
 
 
-    //Edit value
+    //Edit value 
     const secondLang = document.querySelector("li:nth-child(2)")
     //secondLang.innerHTML = "Mojo"
     const newLi = document.createElement('li')
     newLi.textContent = "Mojo"
-    secondLang.replaceWith(newLi)
+    secondLang.replaceWith(newLi);
 
     //edit
     const firstLang = document.querySelector("li:first-child")
