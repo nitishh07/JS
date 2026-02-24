@@ -12,7 +12,16 @@ class User{
     set password(value){
         this._password = value;
     }
+
+    get email(){
+        return this._email.toUpperCase();
+    }
+
+    set email(value){
+        this._email = value
+    }
 }
+
 
 const hitesh = new User("h@hitesh.com" , "123")
 console.log(hitesh.password);
