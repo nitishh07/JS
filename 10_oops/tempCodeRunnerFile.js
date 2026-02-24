@@ -1,2 +1,1 @@
-const promiseOne = new Promise()
-// const date = new Date()
+console.log(hitesh.createId())
