@@ -5,6 +5,8 @@ class User{
         this.password = password;
     }
 
+    //getter likh rahe hai to setter likhna hi pdega
+
     get password(){
         return `${this._password}hitesh`
     }
@@ -25,3 +27,4 @@ class User{
 
 const hitesh = new User("h@hitesh.com" , "123")
 console.log(hitesh.password);
+console.log(hitesh.email);
